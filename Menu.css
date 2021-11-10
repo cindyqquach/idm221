@@ -1,0 +1,46 @@
+* {
+    background-color: #4A3E01;
+}
+
+
+div ul,p {
+    color: #FFDEEA; 
+    font: normal 1.8rem/2.6rem "work-sans", sans-serif; 
+    margin: 0 auto;
+    padding-top: 11rem;
+    text-align: center;
+    width: 50%;
+
+}
+
+.credit {
+    font-size: 0.8rem;
+    margin-top: 12rem;
+}
+
+.logo {
+    width: 25%; 
+    padding-top: 1rem;
+    padding-left: 0.9rem; 
+
+}
+
+ul {
+    list-style: none;
+    }
+
+ul :hover{
+    cursor: pointer;
+    color: #E35628;
+    font-style: italic;  
+    font: "tuppence", serif; 
+    Text-decoration: underline; }
+
+ul :active{
+color: #ACABFF;
+font: "tuppence", serif; 
+}
+
+
+
+
