@@ -1,0 +1,129 @@
+
+*{  
+    color: #E33700; 
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'tuppence', serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+
+ /*Top menu content*/
+.content {
+    background-color: #FFDEEA;
+    width: 24rem; 
+    height: auto; 
+}
+
+ body {
+     z-index: 5; 
+ }
+
+ .logo {
+    width: 20%; 
+    padding-top: 1rem;
+    padding-left: 0.9rem; 
+    float: left; 
+}
+
+.Menu a{
+    font: normal 1rem/2rem 'Work Sans', sans-serif; 
+    text-decoration: none;
+    margin-right: .5rem; 
+}
+
+a:hover{
+    font-style: italic; 
+    cursor: pointer;
+}
+ a:active {
+    font-style: italic; 
+    color: #4A3E01;
+}
+
+
+.Menu {
+    margin-left:9rem; 
+    padding-top: 1rem; 
+}
+
+.container{ 
+    padding: 0.5rem 1.2rem; 
+}
+
+.container img {
+    max-width: 100%;
+    height: auto; 
+}
+
+div p  {
+    font: normal bold 1rem 'Work Sans', sans-serif; 
+    color: #4A3E01; 
+    padding: 1.2rem 0 0 1.2rem;   
+    margin-bottom: -1rem; 
+}
+
+
+
+.container h1, h3 {
+    font: normal italic 1.2rem/1.5rem 'tuppence', serif; 
+    padding-bottom: 0.7rem; 
+    padding-top: 1rem; 
+    text-align:left; 
+}
+
+
+
+#artwork {
+ font-weight:bold; 
+}
+
+/*footer{*/
+footer {
+    background-color: #FFDEEA;
+    width:24rem;
+    height:20rem; 
+    float: left; 
+    z-index: -1;
+    padding: 1rem 0 0 1.2rem;    
+}
+
+footer a {
+    text-decoration: none;
+    z-index: 5; 
+    font: normal 1rem/1.5rem  'Work Sans', sans-serif; 
+    color:#E33700; 
+}
+
+footer h3 {
+    font: normal bold 1.5rem/2rem 'tuppence', 'serif';
+    font-style: italic;
+    padding-top: 0.5rem; 
+    padding-bottom: 0.5rem; 
+    color:#4A3E01;
+    z-index: 4;  
+}
+
+
+#Top{
+    scroll-behavior: smooth;
+    top:0; 
+}
+
+.Topbutton{
+text-align: center; 
+font: normal bold 1rem/2rem 'Work Sans', sans-serif; 
+color: #E33700; 
+
+}
+
+
+.Topbutton a{
+    text-decoration: none;}
+
+
+.credit {
+    color: #4A3E01; 
+    font: normal 1rem 'Work Sans', sans serif;
+}
+

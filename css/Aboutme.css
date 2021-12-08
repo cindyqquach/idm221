@@ -1,0 +1,195 @@
+*{
+    color: #4A3E01;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'tuppence', serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+
+ /*TOP Menu*/
+ a{
+    text-decoration: none;
+ }
+
+ .logo {
+    width: 20%; 
+    padding-top: 1rem;
+    padding-left: 0.9rem; 
+    float: left; 
+}
+
+#About {
+    font-weight: bold; 
+}
+
+.Menu a{
+    color: #E35628;
+    font: normal 1rem/2rem 'Work Sans', sans-serif; 
+    text-decoration: none;
+    margin-right: .5rem; 
+    
+}
+
+.Menu a:hover{
+    font-style: italic; 
+    text-decoration: none;
+}
+
+.Menu a:active {
+    text-decoration: underline;
+    font-style: italic; 
+    color: #E35628;
+}
+
+
+.Menu {
+    margin-left:9rem; 
+    padding-top: 1rem;
+}
+
+#portrait {
+    width:85%; 
+    height: auto; 
+    padding-left: 4rem;
+}
+
+/*INTRO*/
+.resume_body {
+    background-color: #FFDEEA;
+    width: 102%; 
+    height: 196rem; 
+}
+
+
+
+/*RESUME*/
+.bio h1, h2 {
+    font: normal italic 1.2rem/1.5rem 'tuppence', serif; 
+    color:#E35628; 
+    padding: 1rem 1.5rem .3rem 1.5rem;  
+}
+
+
+.bio p {
+    font: normal 1rem/1.5rem 'Work Sans', sans-serif; 
+    color: #4A3E01;
+    margin: 0 1.5rem 1rem 1.5rem; 
+    text-align: left; 
+}
+ 
+.bio a{
+    font: normal 0.8rem 'Work Sans', sans-serif; 
+    font-weight: bold;
+    color:#E35628; 
+    margin-left: 1.5rem; 
+    margin-top: 1.5rem; 
+    text-decoration: none;
+}
+
+.bio, .profile a:link{
+        color: #E35628;       
+}
+
+a:hover{
+    cursor: pointer;
+    font-style: italic;  
+    font: "tuppence", serif;  }
+
+p.resume {
+    margin:1rem 0 1rem 1.5rem; 
+}
+
+div .profile {
+    padding-bottom: 0.5rem;
+}
+
+.text{
+    font: normal 1rem/1.5rem 'Work Sans', sans-serif; 
+    text-align: left;
+    padding: 0 1.5rem;
+    
+}
+
+.text_small{
+    font: normal 1rem/1.5rem 'Work Sans', sans-serif; 
+    text-align: left;
+    padding: 0.5rem 1.5rem .5rem 2.2rem;  
+
+}
+
+.bold {
+    font-weight:bold; 
+}
+
+h4{
+    font-style: italic;
+}
+
+.honors {
+    padding-bottom: .5rem;
+}
+
+.profile {
+    padding-bottom: 1.5rem; 
+}
+.activities {
+    padding-bottom: 1rem; 
+    list-style-type: disc;
+}
+
+/*footer*/
+
+footer {
+    width:23.8rem;
+    height:19rem; 
+    float: left; 
+   /* z-index: -1;*/
+    padding: 1rem 0 0 1.2rem; 
+}
+
+footer a {
+    text-decoration: none;
+    font: normal 1rem/1.5rem  'Work Sans', sans-serif; 
+    color:#4A3E01; 
+}
+
+footer a:hover {
+    font-style: italic; 
+}
+
+footer h3 {
+    font: normal bold 1.5rem/2rem 'tuppence', 'serif';
+    font-style: italic;
+    padding-top: 0.5rem; 
+    padding-bottom: 0.5rem; 
+    color:#4A3E01;
+  /*  z-index: 4; */
+}
+
+.footer2 {
+    background-color: #ACABFF;
+}
+
+#Top{
+    scroll-behavior: smooth;
+    top:0; 
+}
+
+.Topbutton{
+text-align: center; 
+font: normal bold 1rem/2rem 'Work Sans', sans-serif; 
+}
+
+.credit {
+    font: normal 1rem 'Work Sans', sans serif; 
+    background-color: #ACABFF;
+    color: #4A3E01; 
+}
+
+hr {
+        display: block;
+        width: 87%; 
+        height: .2px; 
+        border: 0.03px solid #E35628; 
+        margin: 0 1.5rem 0.5rem;     
+}
